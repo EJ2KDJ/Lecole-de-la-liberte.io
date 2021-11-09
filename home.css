@@ -1,5 +1,6 @@
 html{
     font-family: 'Montserrat','serif', sans-serif;
+    font-smooth: auto;
     
 }
 
@@ -8,6 +9,10 @@ body{
 }
 
 .title{
-    padding: 10px;
-    background: #000;
+    margin: 0 auto;
+    padding: 15px;
+    background: #0b1e20;
+    color: #fff;
+    width: 100%;
+    text-align: center;
 }
