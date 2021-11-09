@@ -6,3 +6,8 @@ html{
 body{
     margin: 0px;
 }
+
+.title{
+    padding: 10px;
+    background: #000;
+}
