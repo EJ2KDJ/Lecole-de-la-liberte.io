@@ -1,6 +1,6 @@
 .topnav {
     overflow: hidden;
-    background-color:#408ec6;
+    background-color:#0b1e20;
     padding: 10px;
     width:  100%;
 }
@@ -8,19 +8,19 @@
 .topnav a {
     float: left;
     display: block;
-            color: #1e2761;
+            color: #ffffff;
             text-align: center;
             padding: 14px 16px;
             text-decoration: none;
-            font-size: 17px;
+            font-size: 20px;
         }
 
         .topnav a:hover{
                 border-radius: 5px;
     transform: scale(1.1);
-    background-color: #1978a5;
+    background-color: #008080;
     transition-property: background;
-    transition-duration: 0.5s;
+    transition-duration: 0.1s;
         }
 
         .topnav .icon {
