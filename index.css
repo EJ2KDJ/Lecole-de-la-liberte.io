@@ -29,6 +29,7 @@ nav{
 }
 
 .nav-link{
+    margin: 0 auto;
     color: #fff;
     margin: 5px;
     margin-right: 50px;
