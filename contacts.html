@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="Nav-bar.css">
     <a href="index.html"><h1 class="title">L'ecole de la liberte</h1></a>
     <title>L'ecole de la liberte - Contacts</title>
     <div class="topnav" id="myTopnav">
@@ -35,4 +36,14 @@
     <p></p>
     </div>
 </body>
+<script>
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+</script>
 </html>
