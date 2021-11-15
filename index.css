@@ -8,15 +8,72 @@ body{
     margin: 0 auto ;
 }
 
+h2{
+    color: #68c7a6;
+    text-align: center;
+}
+
+q{
+    font-style: italic;
+    color: #68c7a6;
+    margin: 0 auto;
+}
+
 /* Website IDs */
 /* Home page about */
+
 #about{
     margin: 0 auto;
-    max-width: 60%;
+    width: 100%;
     justify-content: center;
+    align-items: center;
+}
+#about-text{
+    margin: 0 auto;
+    width: 80%;
 }
 
 /* Website classes */
+
+
+/* About - homepage */
+.flex-container {
+  position: relative;
+  margin:30px;
+  display: flex;
+  flex:auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
+.flex-container>.quote-box {
+  flex-direction: row;
+  color: white;
+  width: 70%;
+  height: 70%;
+  text-align: center;
+}
+
+.flex-container>.abouttext {
+  color: rgb(0, 0, 0);
+  width: 70%;
+  height: 80%;
+  text-align: center;
+}
+.abouttext{
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px;
+    margin: 10px;
+    
+}
+.quote {
+    color: #68c7a6;
+    
+}
+
+/* end of About - Home page */
 .title{
     margin: 0 auto;
     padding: 5px;
@@ -24,7 +81,7 @@ body{
     color: #fff;
     width: 100%;
     text-align: center;
-    
+    border-bottom: 2px solid ivory;
 }
 
 
