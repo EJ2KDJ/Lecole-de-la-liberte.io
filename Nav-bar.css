@@ -61,4 +61,5 @@
 .icon{ 
     background:#b4b4b4;
     border-radius: 5px;
+    block-size: initial;
 }

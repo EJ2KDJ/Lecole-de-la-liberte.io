@@ -8,6 +8,15 @@ body{
     margin: 0 auto ;
 }
 
+/* Website IDs */
+/* Home page about */
+#about{
+    margin: 0 auto;
+    max-width: 60%;
+    justify-content: center;
+}
+
+/* Website classes */
 .title{
     margin: 0 auto;
     padding: 5px;
